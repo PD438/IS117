@@ -17,7 +17,7 @@ header h3 em.shadow{
 }
 /* the styles for the main content */
 a:hover{
-	font-style:italic
+	font-style:italic;
 }
 main {
 	clear: left;
