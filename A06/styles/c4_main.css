@@ -10,6 +10,9 @@ header img {
 }
 
 /* the styles for the main content */
+a:hover{
+	font-style:italic
+}
 main {
 	clear: left;
 }
