@@ -8,7 +8,9 @@ body {
 header img {
 	float: left;
 }
-
+header h3 em.shadow{
+	text-shadow: 2px 2px 5px var(--global-color-1);
+}
 /* the styles for the main content */
 a:hover{
 	font-style:italic
@@ -26,5 +28,7 @@ main h2 {
 main h3 {
 	font-size: 105%;
 }
-
+p{
+	text-align: center;
+}
 /* the styles for the footer */
