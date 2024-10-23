@@ -8,6 +8,7 @@ body {
 header img {
 	float: left;
 }
+
 header h3 em.shadow{
 	text-shadow: 2px 2px 5px var(--global-color-1);
 }
