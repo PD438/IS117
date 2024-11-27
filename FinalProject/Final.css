@@ -43,7 +43,12 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
+.cards-container {
+    display: flex;
+    gap: 1rem; /* Adds space between cards */
+    justify-content: center; /* Aligns cards horizontally */
+    flex-wrap: wrap; /* Wraps cards to the next line if needed */
+}
 /* Page Specific Styles */
 .index-page {
     background-color: #ffebcd;
