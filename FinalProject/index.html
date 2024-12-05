@@ -4,12 +4,13 @@
     <title>Welcome To Paulo Recommends</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS only -->
+    
+    <!-- CSS Only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
-    <link href="../FinalProject/Final.css" rel="stylesheet">
+    <link href="../FinalProject/styles/Final.css" rel="stylesheet">
 </head>
 <body>
 <div class="container-fluid">
@@ -66,14 +67,15 @@
     <!-- Welcome Message -->
     <div class="row mt-4">
         <div class="col text-center">
-            <h1 class="display-4">Welcome To Paulo's Recommendation</h1>
-            <p class="lead">Here you will find awesome recipes. Select a Season through the Navigation!!!  We Hope You Enjoy Your Stay!!!!</p>
+            <h1 class="display-4">Welcome To Grandpa Emiel's Sizzling Dizzaling</h1>
+            <p class="lead">Here you will find awesome recipes.</p>
+            <p>Here's a sneak peek on what are some foods perfect for each Season</p>
         </div>
     </div>
 </div>
 <!-- Carousel Section -->
 <div class="container">
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width: 300px; margin: auto;">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -81,13 +83,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="Images/pumpkin_pie.jpg" alt="Pumpkin_Pie" class="d-block w-100" style="height: 50%; width: 50%;">
+                <img src="Images/pumpkin_pie.jpg" alt="Pumpkin_Pie" class="d-block w-75" style="height: auto;">
             </div>
             <div class="carousel-item">
-                <img src="Images/Sweet_Potato_Casserole.jpg" alt="Sweet_Potato_Casserole" class="d-block w-100" style="height: 50%; width: 50%;">
+                <img src="Images/Sweet_Potato_Casserole.jpg" alt="Sweet_Potato_Casserole" class="d-block w-75" style="height: auto;">
             </div>
             <div class="carousel-item">
-                <img src="Images/beef_ribs.jpg" alt="BeefRibs" class="d-block w-100" style="height: 50%; width: 50%;">
+                <img src="Images/beef_ribs.jpg" alt="BeefRibs" class="d-block w-75" style="height: auto;">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -100,7 +102,51 @@
         </button>
     </div>
 </div>
-<!-- Footer Section -->
+<!-- Preview Containers for Other Seasons -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="Images/sunflower.jpg" class="card-img-top" alt="Spring">
+                <div class="card-body">
+                    <h5 class="card-title">Spring</h5>
+                    <p class="card-text">Discover fresh and vibrant recipes for Spring.</p>
+                    <a href="../FinalProject/Spring.html" class="btn btn-primary">View Spring Recipes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="Images/beachball.jpg" class="card-img-top" alt="Summer">
+                <div class="card-body">
+                    <h5 class="card-title">Summer</h5>
+                    <p class="card-text">Enjoy delicious and refreshing recipes for Summer.</p>
+                    <a href="../FinalProject/Summer.html" class="btn btn-primary">View Summer Recipes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="Images/Fall_Leaves.jpg" class="card-img-top" alt="Fall">
+                <div class="card-body">
+                    <h5 class="card-title">Fall</h5>
+                    <p class="card-text">Warm up with cozy and comforting recipes for Fall.</p>
+                    <a href="../FinalProject/Fall.html" class="btn btn-primary">View Fall Recipes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="Images/snowflake.jpg" class="card-img-top" alt="Winter">
+                <div class="card-body">
+                    <h5 class="card-title">Winter</h5>
+                    <p class="card-text">Indulge in hearty and festive recipes for Winter.</p>
+                    <a href="../FinalProject/Winter.html" class="btn btn-primary">View Winter Recipes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <footer class="footer page-footer font-small mt-4">
     <div class="container">
         <div class="row">
