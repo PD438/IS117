@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome To Package Tracker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- CSS Only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../TestFor491/CSS/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Navigation Bar -->
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Printing with Purpose</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="nav-link" href="../TestFor491/index.html">Home</a>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../TestFor491/TrackPackage.html">Track a Package</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../TestFor491/CreateAccount.html">Create Account</a>
+                            <a class="dropdown-item" href="../TestFor491/SignIn.html">Sign in</a>
+                            <a class="dropdown-item" href="../TestFor491/FAQ.html">FAQ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../TestFor491/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Welcome Message -->
+    <div class="row mt-4">
+        <div class="col text-center">
+            <h1 class="display-4">Welcome to Printing with Purpose</h1>
+            <p class="lead">Here you will see how much of an impact you are making for the community</p>
+            <p> We Hope You Enjoy Your Stay!!!</p>   
+        </div>
+    </div>
+</div>
+<!-- Donation Button -->
+<div class="container mt-4 text-center">
+    <button class="btn btn-success" onclick="showDonationAmount()">Show Donation Amount</button>
+</div>
+
+<footer class="footer page-footer font-small mt-4">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Paulo Duarte, 2024 | Terms Of Use | Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+<!-- Custom JavaScript -->
+<script>
+    function showDonationAmount() {
+        var donationAmount = 100; // Replace this with the actual donation amount
+        alert("The amount of money donated to your specific school is $" + donationAmount);
+    }
+</script>
+</body>
+</html>

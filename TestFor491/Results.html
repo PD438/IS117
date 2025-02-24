@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Results Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .results {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .results h2 {
+            color: #333;
+        }
+        .results table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .results table, th, td {
+            border: 1px solid #ddd;
+        }
+        .results th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        .results th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Package Results Page</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="results">
+            <h2>Package Results</h2>
+            <table>
+                <tr>
+                    <th>Package Name</th>
+                    <th>Version</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Package A</td>
+                    <td>1.0.0</td>
+                    <td>Success</td>
+                </tr>
+                <tr>
+                    <td>Package B</td>
+                    <td>2.1.0</td>
+                    <td>Failed</td>
+                </tr>
+                <tr>
+                    <td>Package C</td>
+                    <td>3.0.2</td>
+                    <td>Success</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

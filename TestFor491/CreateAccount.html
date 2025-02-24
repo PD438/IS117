@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Printing With Purpose</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../TestFor491/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../TestFor491/TrackPackage.html">Track a Package</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../TestFor491/CreateAccount.html">Create Account</a>
+                    <a class="dropdown-item" href="../TestFor491/SignIn.html">Sign in</a>
+                    <a class="dropdown-item" href="../TestFor491/FAQ.html">FAQ</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../TestFor491/contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="../TestFor491/index.html">Home</a>
+                        </li>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../TestFor491/TrackPackage.html">Track a Package</a>
+                                </li>
+                                <!-- Dropdown -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                       data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="../TestFor491/CreateAccount.html">Create Account</a>
+                                        <a class="dropdown-item" href="../TestFor491/SignIn.html">Sign in</a>
+                                        <a class="dropdown-item" href="../TestFor491/FAQ.html">FAQ</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../TestFor491/contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+            <div class="container mt-3">
+                <h2>Create Account</h2>
+                <form action="/submit_account" method="post">
+                    <div class="mb-3 mt-3">
+                        <label for="username" class="form-label">Username:</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter username" name="username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pwd" class="form-label">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirm_pwd" class="form-label">Confirm Password:</label>
+                        <input type="password" class="form-control" id="confirm_pwd" placeholder="Confirm password" name="confirm_pswd" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>

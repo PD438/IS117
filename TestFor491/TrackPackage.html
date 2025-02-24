@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Package</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+                <!-- Brand -->
+                <span class="navbar-text">Printing with Purpose</span>
+                <a class="navbar-brand" href="#"></a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="../TestFor491/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../TestFor491/TrackPackage.html">Track a Package</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../TestFor491/contact.html">Contact</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../TestFor491/CreateAccount.html">Create Account</a>
+                                <a class="dropdown-item" href="../TestFor491/SignIn.html">Sign in</a>
+                                <a class="dropdown-item" href="../TestFor491/FAQ.html">FAQ</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Track Your Package</h1>
+        <input type="text" id="trackingNumber" placeholder="Enter your tracking number">
+        <button onclick="trackPackage()">Track</button>
+    </div>
+
+    <script>
+        function trackPackage() {
+            const trackingNumber = document.getElementById('trackingNumber').value;
+            if (trackingNumber) {
+                alert('Tracking number: ' + trackingNumber);
+                // Add your tracking logic here
+            } else {
+                alert('Please enter a tracking number.');
+            }
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
